@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:onClick="OnboardTwo"
+    android:scrollbarSize="3dp"
+    tools:context=".OnboardTwo">
+
+    <TextView
+        android:id="@+id/buttonClick"
+        android:layout_width="119dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="49dp"
+        android:fontFamily="@font/lato_bold"
+        android:onClick="onboardTwo"
+        android:text="@string/propusk"
+        android:textColor="#57A9FF"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="49dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.966"
+        app:layout_constraintStart_toEndOf="@+id/buttonClick"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/shape" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="101dp"
+        android:layout_height="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="48dp"
+        android:fontFamily="@font/lato_bold"
+        android:gravity="top"
+        android:text="@string/uvedom"
+        android:textColor="@color/create"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="361dp"
+        android:layout_height="24dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="29dp"
+        android:gravity="center_horizontal|top"
+        android:lineSpacingExtra="3sp"
+        android:text="@string/result"
+        android:translationY="-1.65sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        tools:ignore="MissingConstraints" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checkedButton="@id/radioButton2"
+        android:orientation="horizontal"
+        android:scrollbarSize="4dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3">
+
+        <RadioButton
+            android:id="@+id/radioButton"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="#57A9FF"
+            android:checked="false"
+            android:minWidth="15dp"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="#57A9FF"
+            android:minWidth="15dp"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="#57A9FF"
+            android:minWidth="15dp"
+            tools:ignore="TouchTargetSizeCheck" />
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="28dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/people"
+        tools:ignore="MissingConstraints" />
+</androidx.constraintlayout.widget.ConstraintLayout>

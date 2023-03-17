@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">WS</string>
+    <string name="propusk">Пропустить</string>
+    <string name="analize">Анализы</string>
+    <string name="text">Экспресс сбор и получение проб</string>
+    <string name="result">Вы быстро узнаете о результатах</string>
+    <string name="uvedom">Уведомления</string>
+    <string name="dobro">Добро пожаловать!</string>
+    <string name="exit">Войдите, чтобы пользоваться функциями приложения</string>
+    <string name="email">Вход по E-mail</string>
+    <string name="example_mail_ru">example@mail.ru</string>
+    <string name="dalee">Далее</string>
+    <string name="voidite">Или войдите с помощью</string>
+    <string name="Yandex">Войти с Яндекса</string>
+    <string name="otpravit">Отправить код повторно можно будет через 59 секунды</string>
+    <string name="strech"><![CDATA[<]]></string>
+    <string name="email2">Введите код из E-mail</string>
+
+</resources>
