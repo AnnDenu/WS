@@ -10,7 +10,7 @@ import androidx.annotation.NonNull;
 
 public class news  implements Parcelable{
     int id;
-
+//строки
     String name, description, price, image;
 
     protected news (Parcel in){
