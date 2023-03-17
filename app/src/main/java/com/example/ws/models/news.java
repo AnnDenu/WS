@@ -35,13 +35,13 @@ public class news  implements Parcelable{
         public news createFromParcel(Parcel in) {
             return new news(in);
         }
-
+        //строки
         @Override
         public news[] newArray(int size) {
             return new news[size];
         }
     };
-
+    //строки
     //Геттер и Сеттер
     public int getId() {
         return id;

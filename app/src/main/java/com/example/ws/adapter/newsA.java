@@ -14,9 +14,9 @@ import com.example.ws.models.news;
 import java.util.List;
 
 public class newsA extends BaseAdapter {
-
+    //строки
     Context context;
-
+    //строки
     private List<news> newsList;
 
     public newsA(Context context, List<news> newsList) {

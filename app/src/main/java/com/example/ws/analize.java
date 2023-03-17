@@ -24,7 +24,7 @@ import java.util.List;
 public class analize extends AppCompatActivity {
 
     private newsA mAdapter;
-
+    //строки
     private List<news>  mNewsList = new ArrayList<>();
 
     @Override
